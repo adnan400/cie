@@ -1,0 +1,361 @@
+/* header{
+    
+position: absolute;
+width: 1920px;
+height: 44px;
+left: 0px;
+top: 0px;
+
+background: linear-gradient(90deg, #5DCDF6 -1.8%, #1982BC 102.14%);
+}
+
+.call-us{
+position: absolute;
+width: 209px;
+height: 25px;
+left: 524px;
+top: 10px;
+
+font-family: 'Open Sans';
+font-style: normal;
+font-weight: 700;
+font-size: 18px;
+line-height: 25px;
+/* identical to box height */
+/* display: flex;
+align-items: center;
+color: #FFFFFF;
+}
+
+
+.E-us{
+position: absolute;
+width: 254px;
+height: 25px;
+left: 200px;
+top: 10px;
+
+font-family: 'Open Sans';
+font-style: normal;
+font-weight: 700;
+font-size: 18px;
+line-height: 25px; */
+/* identical to box height */
+/* display: flex;
+align-items: center;
+color: #FFFFFF;
+} */
+
+
+
+
+
+
+
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@600&family=Raleway:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@600&family=Raleway:wght@100;200;300;400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600&family=Raleway:wght@100;200;300;400;700&display=swap');
+*{
+    box-sizing: border-box;
+}
+
+
+header{
+position: absolute;
+width: 1920px;
+height: 44px;
+left: 0px;
+top: 0px;
+
+background: linear-gradient(90deg, #5DCDF6 -1.8%, #1982BC 102.14%);
+}
+
+.email-us{
+position: absolute;
+width: 254px;
+height: 25px;
+left: 200px;
+top: 10px;
+
+font-family: 'Open Sans', sans-serif;
+font-style: normal;
+font-weight: 700;
+font-size: 18px;
+line-height: 25px;
+/* identical to box height */
+
+display: flex;
+align-items: center;
+
+color: #FFFFFF;
+}
+
+.dummy{
+/* Email Us: dummy@gmail.com */
+margin-left: 78px;
+position: absolute;
+width: 254px;
+height: 25px;
+left: 200px;
+top: 10px;
+
+font-family: 'Open Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 25px;
+/* identical to box height */
+display: flex;
+align-items: center;
+
+color: #FFFFFF;
+}
+
+.call-us{
+position: absolute;
+width: 209px;
+height: 25px;
+left: 524px;
+top: 10px;
+
+font-family: 'Open Sans';
+font-style: normal;
+font-weight: 600;
+font-size: 18px;
+line-height: 25px;
+/* identical to box height */
+
+display: flex;
+align-items: center;
+
+color: #FFFFFF;
+}
+
+.number{
+margin-left: 60px;
+position: absolute;
+width: 209px;
+height: 25px;
+left: 524px;
+top: 10px;
+
+font-family: 'Open Sans', sans-serif;
+font-style: normal;
+font-weight: 500;
+font-size: 18px;
+line-height: 25px;
+/* identical to box height */
+
+display: flex;
+align-items: center;
+
+color: #FFFFFF;
+}
+
+.nav-nav{
+position: absolute;
+width: 190px;
+height: 100px;
+left: 0px;
+top: 44px;
+
+background: #ffffff;
+}
+
+a{
+text-decoration: none;
+font-family: 'Raleway', sans-serif;
+color: rgb(0, 0, 0);
+font-weight: 400;
+font-size: 16px;
+line-height: 19px;
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+}
+
+.nav-bar{
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+gap: 60px;
+margin-top: -45px;
+position: absolute;
+width: 535px;
+height: 19px;
+left: 1185px;
+top: 85px;
+}
+
+.cie-logo{
+position: absolute;
+width: 147px;
+height: 73px;
+left: 200px;
+top: 61px;
+margin-top: -47px;
+background: url(Centeral-India-Logo.png);
+}
+
+.home-img{
+position: absolute;
+width: 1920px;
+height: 950px;
+left: 0px;
+top: 144px;
+filter: brightness(70%);
+opacity: 90%;
+
+background: rgba(30, 30, 30, 0.3);
+}
+
+
+.main-title{
+    position: absolute;
+    width: 740px;
+    height: 59px;
+    left: 200px;
+    top: 456px;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 59px;
+    /* identical to box height */
+    display: flex;
+    align-items: center;
+    white-space: nowrap;
+    color: #FFFFFF;
+    margin-top: 20px;
+
+}
+
+.home-p{
+    position: absolute;
+    width: 693px;
+    height: 70px;
+    left: 200px;
+    top: 535px;
+    
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 26px;
+    line-height: 35px;
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+    
+    color: #FFFFFF;
+}
+
+.main-btn{
+    position: absolute;
+    left: 21%;
+    right: 21%;
+    top: 30%;
+    bottom: 28%;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 21px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    
+    color: #FFFFFF;
+}
+
+
+.btn{
+    align-items: flex-start;
+    background-color: #1982BC;;
+    display: flex;
+    height: 50px;
+    left: 200px;
+    min-width: 200px;
+    padding: 14px 42px;
+    top: 512px;
+    position: absolute;
+    width: 200px;
+    height: 50px;
+    left: 200px;
+    top: 656px;
+}
+
+
+.welcome{
+    position: absolute;
+    width: 690px;
+    height: 42px;
+    left: 616.42px;
+    top: 1216.23px;
+    
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 42px;
+    display: flex;
+    align-items: center;
+
+    white-space: nowrap;
+    
+    color: #1E1E1E;
+    
+    transform: rotate(0.02deg);
+}
+
+
+.blue-line{
+position: absolute;
+width: 174px;
+height: 4px;
+left: 874.39px;
+top: 1288.32px;
+margin-top: 30px;
+
+background: #1982BC;
+transform: rotate(0.02deg);
+}
+
+.lorem{
+    position: absolute;
+width: 641px;
+height: 50px;
+left: 640.38px;
+top: 1319.23px;
+
+font-family: 'Open Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 25px;
+display: flex;
+align-items: center;
+text-align: center;
+
+color: #7E7E7E;
+
+transform: rotate(0.02deg);
+
+}
+
+
+.cards{
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
